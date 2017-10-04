@@ -1,0 +1,27 @@
+/*GifTastic CSS!*/
+
+.jumbotron {
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 20px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+	background: url("../images/flowerback.jpg");
+}
+
+#flowerForm {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	float: right;
+	padding: 25px;
+	color: #0c6a72;
+	background-color: e6ffff
+}
+
+.gifsShow {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	float: left;
+	padding: 10px;
+	width: 300px;
+}

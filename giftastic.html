@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Giftastic!</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- Style CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Reset CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+</head>
+
+<body>
+  <div class="jumbotron">
+  <h1>See the Beautiful Flowers using Giphy Magic!</h1>
+  </div>
+
+  <!-- Buttons will show and append here -->
+  <div id="button-views"></div>
+
+  <!-- Container to add new flower to search and return -->
+    <form id="flowerForm">
+      <div class="form-group">
+        <div class="row">
+          <div class="col-m-4">
+            <label for="topicInput">Add a new flower:</label>
+            <br>
+            <br>
+            <input type="text" id="newFlower" class="form-control" placeholder="Enter new Flower">
+            <br>
+            <!-- Button searches flower entered -->
+            <input id="addFlower" type="submit" value="Submit">
+          </div>
+        </div>
+      </div>
+    </form>
+
+      <!-- Container to show all gifs of new flowers -->
+      <div class="gifsShow"></div>
+    </div>
+  
+  <!-- Javascript for GifTastic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="script2.js"></script>
+   
+</body>
+</html>
